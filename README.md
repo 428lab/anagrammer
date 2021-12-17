@@ -9,15 +9,26 @@ A program that anagrams the keywords and outputs probable name candidates
 
 ## Usage
 
-python anagrammer.py メリーゴーランド  
+python anagrammer.py ゼンリョクキカイ
 
 
 
 ## Output
 
-https://www.worldsys.org/europe/dutch-female-names-0002/ Lienリーン  
-https://www.worldsys.org/europe/finnish-male-names-0002/ Lariラリ  
-https://www.worldsys.org/europe/dutch-male-names-0003/ Rienリーン  
-https://www.worldsys.org/europe/english-family-names-0014/ Leanリーン  
-https://www.worldsys.org/europe/italian-family-names-0018/ Melandriメランドリ  
-https://www.worldsys.org/europe/spanish-family-names-0007/ Liraリラ  
+https://www.worldsys.org/europe/finnish-female-names-0002/ Inkaインカ  
+https://www.worldsys.org/europe/dutch-female-names-0002/ Karinカリン、カーリン  
+https://www.worldsys.org/europe/dutch-female-names-0003/ Rikaリカ  
+https://www.worldsys.org/europe/german-male-names-0003/ Kaiカイ  
+https://www.worldsys.org/europe/swedish-male-names-0002/ Kaiカイ  
+https://www.worldsys.org/europe/finnish-male-names-0002/ Kaiカイ  
+https://www.worldsys.org/europe/finnish-male-names-0002/ Kariカリ  
+https://www.worldsys.org/europe/finnish-male-names-0003/ Rikuリク  
+https://www.worldsys.org/europe/dutch-male-names-0002/ Kaiカイ  
+https://www.worldsys.org/europe/german-family-names-0014/ Linkリンク  
+https://www.worldsys.org/europe/finnish-family-names-0005/ Kariカリ  
+https://www.worldsys.org/europe/finnish-family-names-0007/ Kurriクッリ（クリ）  
+https://www.worldsys.org/europe/russian-family-names-0006/ ЗенкинZenkinゼンキンЗенкинаZenkinaゼンキナ  
+https://www.worldsys.org/europe/czech-family-names-0007/ Ka?kaカンカKa?kovaカンコヴァー  
+https://www.worldsys.org/europe/czech-family-names-0008/ KlikaクリカKlikovaクリコヴァー  
+https://www.worldsys.org/europe/czech-family-names-0021/ ZelinkaゼリンカZelinkovaゼリンコヴァー  
+

@@ -64,7 +64,7 @@ def search_anagram(url, src_name):
     getLinks(url, urls)
 
     sorted_src_name = ''.join(set(sorted(src_name)))
-    print('sorted_src_name',sorted_src_name)
+    #print('sorted_src_name',sorted_src_name)
     candidate_names = []
     for url in tqdm(urls):
         for name in getName(url):
