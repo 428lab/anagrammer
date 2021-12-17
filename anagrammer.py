@@ -63,14 +63,20 @@ def search_anagram(url, src_name):
     urls = []
     getLinks(url, urls)
 
+    sorted_src_name = ''.join(set(sorted(src_name)))
+    print('sorted_src_name',sorted_src_name)
     candidate_names = []
     for url in tqdm(urls):
-        sorted_src_name = ''.join(sorted(src_name))
         for name in getName(url):
             katakana = re.compile(r'[\u30A1-\u30F4・ー]+')
             for kana in katakana.findall(name):
-                sorted_kana = ''.join(sorted(kana))
-                if sorted_kana in sorted_src_name:
+                sorted_kana = ''.join(set(sorted(kana)))
+                #print('sorted_kana',sorted_kana)
+                included = True
+                for c in sorted_kana:
+                    if c not in sorted_src_name:
+                        included = False
+                if included:
                     candidate_names.append((url, name))
     return candidate_names
 
