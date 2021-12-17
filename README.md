@@ -3,8 +3,8 @@ A program that anagrams the keywords and outputs probable name candidates
 
 ## Functions
 
-キーワードをカタカナで引数に指定すると、欧羅巴人名録（https://www.worldsys.org/europe/）を走査して、  
-キーワードをアナグラムすることで得られる実在する氏名の候補を出力する  
+キーワードをカタカナで引数に指定すると、欧羅巴人名録（https://www.worldsys.org/europe/ ）を走査して、  
+キーワードの文字を並べ替えて得られる名前の候補を出力する。  
 
 
 ## Usage
